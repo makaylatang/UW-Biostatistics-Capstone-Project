@@ -1,6 +1,6 @@
 # UW-Biostatistics-Capstone-Project
 
-*Group Project*
+**Group Project**
 
 Sponsored by NanoString Technologies Inc. 
 
@@ -18,14 +18,14 @@ To evaluate the performance of our supervised cell typing approach, we compare I
 
 > Methods
 
-- InSitutype: Developed by Nanostring, Insitutype utilizes a likelihood model to enable supervised cell typing from reference datasets via a Bayes classifier and unsupervised or semi-supervised cell typing via an Expectation Maximization algorithm. Insitutype is designed to address the challenges of sparse and multi-modal spatial transcriptomics data, and it employs an escalating subsampling scheme to handle large datasets efficiently. Compared to existing cell typing methods, Insitutype offers several advantages, including its ability to handle large datasets, its use of a likelihood model to weigh the evidence from every transcript in a cell, its incorporation of alternative data types such as images and spatial context, and its ability to identify new clusters alongside reference cell types. 
+- `InSitutype`: Developed by Nanostring, Insitutype utilizes a likelihood model to enable supervised cell typing from reference datasets via a Bayes classifier and unsupervised or semi-supervised cell typing via an Expectation Maximization algorithm. Insitutype is designed to address the challenges of sparse and multi-modal spatial transcriptomics data, and it employs an escalating subsampling scheme to handle large datasets efficiently. Compared to existing cell typing methods, Insitutype offers several advantages, including its ability to handle large datasets, its use of a likelihood model to weigh the evidence from every transcript in a cell, its incorporation of alternative data types such as images and spatial context, and its ability to identify new clusters alongside reference cell types. 
 
-- SingleR: An unbiased cell typing method for scRNA-seq by leveraging reference transcriptomic datasets of pure cell types to infer the cell of origin of each single cell independently. 
+- `SingleR`: An unbiased cell typing method for scRNA-seq by leveraging reference transcriptomic datasets of pure cell types to infer the cell of origin of each single cell independently. 
 
-- CHETAH (Characterization of Cell Types Aided by Hierarchical classification): A scRNA-seq classifier by hierarchical clustering of the reference data. The classification tree enables a step-wise, top-to-bottom classification.  
+- `CHETAH` (Characterization of Cell Types Aided by Hierarchical classification): A scRNA-seq classifier by hierarchical clustering of the reference data. The classification tree enables a step-wise, top-to-bottom classification.  
 
-- SeuratV3: A single-cell transcriptomics classifier can anchor diverse datasets together, enabling us to integrate single-cell measurements not only across scRNA-seq, but also across 	different modalities (e.g. scATAC-seq).  
+- `SeuratV3`: A single-cell transcriptomics classifier can anchor diverse datasets together, enabling us to integrate single-cell measurements not only across scRNA-seq, but also across 	different modalities (e.g. scATAC-seq).  
 
-- SingleCellNet: A random forest classifier to learn cell type-specific gene pairs from cross-platform and cross-species datasets and thus quantitatively assesses cell identity at a single-cell resolution. 
+- `SingleCellNet`: A random forest classifier to learn cell type-specific gene pairs from cross-platform and cross-species datasets and thus quantitatively assesses cell identity at a single-cell resolution. 
 
 
